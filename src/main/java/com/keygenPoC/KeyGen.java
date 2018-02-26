@@ -30,7 +30,12 @@ public class KeyGen {
                 int _index$;
                 do {
                     if (!_$_$2edwb$) {
-                        UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+                        final String op = System.getProperty("os.name");
+                        if(op.startsWith("Win")) {
+                            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+                        }else {
+                            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+                        }
                         final JFrame _$$f_dwquig11__ = new JFrame("PoC by rub'n - Ly-Crackme @Leyer");
                         _$$f_dwquig11__.setIconImage(new ImageIcon((KeyGen.class.getClassLoader().getResource("icoImg.png"))).getImage());
                         final JTextField __gXb$ = new JTextField(20);
