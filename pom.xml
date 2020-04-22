@@ -22,17 +22,21 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.googlecode.soundlibs/mp3spi -->
         <dependency>
-            <groupId>com.google.soundlibs</groupId>
+            <groupId>com.googlecode.soundlibs</groupId>
             <artifactId>mp3spi</artifactId>
             <version>1.9.5.4</version>
         </dependency>
 
+
+        <!-- https://mvnrepository.com/artifact/com.googlecode.soundlibs/basicplayer -->
         <dependency>
-            <groupId>com.google.soundlibs</groupId>
+            <groupId>com.googlecode.soundlibs</groupId>
             <artifactId>basicplayer</artifactId>
             <version>3.0.0.0</version>
         </dependency>
+
 
         <dependency>
             <groupId>javazoom</groupId>
@@ -40,11 +44,13 @@
             <version>1.0.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.googlecode.soundlibs/tritonus-share -->
         <dependency>
-            <groupId>com.google.soundlibs</groupId>
+            <groupId>com.googlecode.soundlibs</groupId>
             <artifactId>tritonus-share</artifactId>
-            <version>0.3.7-1</version>
+            <version>0.3.7.4</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.slf4j</groupId>
